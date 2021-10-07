@@ -3,7 +3,7 @@
 
 In a comprehensive [genome-wide association study](https://doi.org/10.1038/s41588-021-00921-z) published in _Nature Genetics_ this month, researchers resolved seven previously unidentified genetic loci associated with a high risk of late-onset Alzheimer’s disease in a sample of over 1,000,000 adult LOAD patients. The finding begs the question of what the functional roles of these seven genetic risk factors are in healthy individuals, and whether those functions might be related to Alzheimer’s disease progression. Identifying and studying the genetic underpinnings that predispose individuals to Alzheimer’s disease (and the corresponding proteins that those genes express) can enhance our understanding of the overall disease pathology.
 
-This repository documents the methods and results of a bioinformatics data collection exercise aiming explore a selection of the genetic risk factors implicated in Alzheimer’s disease. We retrieve, parse and re-format genetic records from the NCBI-curated GenBank nucleotide sequence database to construct a dataset suitable for subsequent analyses. 
+This repository documents the methods and results of a bioinformatics data collection exercise aiming explore a selection of the genetic risk factors implicated in Alzheimer’s disease. We retrieve, parse and re-format genetic records from the NCBI-curated [GenBank](https://www.ncbi.nlm.nih.gov/nuccore/) nucleotide sequence database to construct a dataset suitable for subsequent analyses. 
 
 ## Contents
 * 
