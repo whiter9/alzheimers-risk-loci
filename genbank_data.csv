@@ -1,0 +1,58 @@
+name,id,length,description,comment,organism,molecule_type,topology
+AGRN,NG_016346,42990,"Homo sapiens agrin (AGRN), RefSeqGene (LRG_198) on chromosome 1","REVIEWED REFSEQ: This record has been curated by NCBI staff in
+collaboration with Tom Winder, Johan den Dunnen. The reference
+sequence was derived from AL645608.30.
+This sequence is a reference standard in the RefSeqGene project.
+Summary: This gene encodes one of several proteins that are
+critical in the development of the neuromuscular junction (NMJ), as
+identified in mouse knock-out studies. The encoded protein contains
+several laminin G, Kazal type serine protease inhibitor, and
+epidermal growth factor domains. Additional post-translational
+modifications occur to add glycosaminoglycans and disulfide bonds.
+In one family with congenital myasthenic syndrome affecting
+limb-girdle muscles, a mutation in this gene was found. Alternative
+splicing results in multiple transcript variants encoding different
+isoforms. [provided by RefSeq, Mar 2015].",Homo sapiens,DNA,linear
+TNIP1,NG_030590,64718,"Homo sapiens TNFAIP3 interacting protein 1 (TNIP1), RefSeqGene on chromosome 5","REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+reference sequence was derived from AC008641.7.
+This sequence is a reference standard in the RefSeqGene project.
+Summary: This gene encodes an A20-binding protein which plays a
+role in autoimmunity and tissue homeostasis through the regulation
+of nuclear factor kappa-B activation. Mutations in this gene have
+been associated with psoriatic arthritis, rheumatoid arthritis, and
+systemic lupus erythematosus. Multiple transcript variants encoding
+different isoforms have been found for this gene. [provided by
+RefSeq, Nov 2011].",Homo sapiens,DNA,linear
+HAVCR2,NG_030444,30406,"Homo sapiens hepatitis A virus cellular receptor 2 (HAVCR2), RefSeqGene on chromosome 5","REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+reference sequence was derived from AC011377.6.
+This sequence is a reference standard in the RefSeqGene project.
+Summary: The protein encoded by this gene belongs to the
+immunoglobulin superfamily, and TIM family of proteins.
+CD4-positive T helper lymphocytes can be divided into types 1 (Th1)
+and 2 (Th2) on the basis of their cytokine secretion patterns. Th1
+cells are involved in cell-mediated immunity to intracellular
+pathogens and delayed-type hypersensitivity reactions, whereas, Th2
+cells are involved in the control of extracellular helminthic
+infections and the promotion of atopic and allergic diseases. This
+protein is a Th1-specific cell surface protein that regulates
+macrophage activation, and inhibits Th1-mediated auto- and
+alloimmune responses, and promotes immunological tolerance.
+[provided by RefSeq, Sep 2011].",Homo sapiens,DNA,linear
+GRN,NG_007886,14980,"Homo sapiens granulin precursor (GRN), RefSeqGene (LRG_661) on chromosome 17","REVIEWED REFSEQ: This record has been curated by NCBI staff in
+collaboration with Dennis Dooijes. The reference sequence was
+derived from AC003043.2.
+This sequence is a reference standard in the RefSeqGene project.
+Summary: Granulins are a family of secreted, glycosylated peptides
+that are cleaved from a single precursor protein with 7.5 repeats
+of a highly conserved 12-cysteine granulin/epithelin motif. The 88
+kDa precursor protein, progranulin, is also called proepithelin and
+PC cell-derived growth factor. Cleavage of the signal peptide
+produces mature granulin which can be further cleaved into a
+variety of active, 6 kDa peptides. These smaller cleavage products
+are named granulin A, granulin B, granulin C, etc. Epithelins 1 and
+2 are synonymous with granulins A and B, respectively. Both the
+peptides and intact granulin protein regulate cell growth. However,
+different members of the granulin protein family may act as
+inhibitors, stimulators, or have dual actions on cell growth.
+Granulin family members are important in normal development, wound
+healing, and tumorigenesis. [provided by RefSeq, Jul 2008].",Homo sapiens,DNA,linear
