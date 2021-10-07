@@ -6,7 +6,11 @@ In a comprehensive [genome-wide association study](https://doi.org/10.1038/s4158
 This repository documents the methods and results of a bioinformatics data collection exercise aiming explore a selection of the genetic risk factors implicated in Alzheimer’s disease. We retrieve, parse and re-format genetic records from the NCBI-curated [GenBank](https://www.ncbi.nlm.nih.gov/nuccore/) nucleotide sequence database to construct a dataset suitable for subsequent analyses. 
 
 ## Contents
-* 
+* .gb files - raw data files containing individual genetic records
+* alzheimers_risk_loci.csv - final formatted data file
+* parse_genbank_files.py - file parser to construct a csv from the raw data files
+
+
 ## Acknowledgements
 * Original data source for all gene records: [GenBank server](https://www.ncbi.nlm.nih.gov/nuccore/)
   *  Benson DA, Cavanaugh M, Clark K, Karsch-Mizrachi I, Lipman DJ, Ostell J, Sayers EW. GenBank. Nucleic Acids Res. 2013 Jan;41(Database issue):D36-42. doi: 10.1093/nar/gks1195. Epub 2012 Nov 27. PMID: 23193287; PMCID: PMC3531190.
