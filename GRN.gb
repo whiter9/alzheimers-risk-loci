@@ -1,0 +1,586 @@
+LOCUS       NG_007886              14980 bp    DNA     linear   PRI 14-FEB-2021
+DEFINITION  Homo sapiens granulin precursor (GRN), RefSeqGene (LRG_661) on
+            chromosome 17.
+ACCESSION   NG_007886
+VERSION     NG_007886.1
+KEYWORDS    RefSeq; RefSeqGene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 14980)
+  AUTHORS   Capell A, Fellerer K and Haass C.
+  TITLE     Progranulin transcripts with short and long 5' untranslated regions
+            (UTRs) are differentially expressed via posttranscriptional and
+            translational repression
+  JOURNAL   J Biol Chem 289 (37), 25879-25889 (2014)
+   PUBMED   25056957
+REFERENCE   2  (bases 1 to 14980)
+  AUTHORS   Mole,S.E. and Williams,R.E.
+  TITLE     Neuronal Ceroid-Lipofuscinoses - RETIRED CHAPTER, FOR HISTORICAL
+            REFERENCE ONLY
+  JOURNAL   (in) Adam MP, Ardinger HH, Pagon RA, Wallace SE, Bean LJH, Mirzaa G
+            and Amemiya A (Eds.);
+            GENEREVIEWS((R));
+            (1993)
+   PUBMED   20301601
+REFERENCE   3  (bases 1 to 14980)
+  AUTHORS   Hsiung,G.Y.R. and Feldman,H.H.
+  TITLE     GRN Frontotemporal Dementia
+  JOURNAL   (in) Adam MP, Ardinger HH, Pagon RA, Wallace SE, Bean LJH, Mirzaa G
+            and Amemiya A (Eds.);
+            GENEREVIEWS((R));
+            (1993)
+   PUBMED   20301545
+REFERENCE   4  (bases 1 to 14980)
+  AUTHORS   Klein,C., Lohmann,K., Marras,C. and Munchau,A.
+  TITLE     Hereditary Dystonia Overview
+  JOURNAL   (in) Adam MP, Ardinger HH, Pagon RA, Wallace SE, Bean LJH, Mirzaa G
+            and Amemiya A (Eds.);
+            GENEREVIEWS((R));
+            (1993)
+   PUBMED   20301334
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff in
+            collaboration with Dennis Dooijes. The reference sequence was
+            derived from AC003043.2.
+            This sequence is a reference standard in the RefSeqGene project.
+            
+            Summary: Granulins are a family of secreted, glycosylated peptides
+            that are cleaved from a single precursor protein with 7.5 repeats
+            of a highly conserved 12-cysteine granulin/epithelin motif. The 88
+            kDa precursor protein, progranulin, is also called proepithelin and
+            PC cell-derived growth factor. Cleavage of the signal peptide
+            produces mature granulin which can be further cleaved into a
+            variety of active, 6 kDa peptides. These smaller cleavage products
+            are named granulin A, granulin B, granulin C, etc. Epithelins 1 and
+            2 are synonymous with granulins A and B, respectively. Both the
+            peptides and intact granulin protein regulate cell growth. However,
+            different members of the granulin protein family may act as
+            inhibitors, stimulators, or have dual actions on cell growth.
+            Granulin family members are important in normal development, wound
+            healing, and tumorigenesis. [provided by RefSeq, Jul 2008].
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-14980             AC003043.2         33484-48463         c
+FEATURES             Location/Qualifiers
+     source          1..14980
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="17"
+                     /map="17q21.31"
+     gene            4964..12984
+                     /gene="GRN"
+                     /gene_synonym="CLN11; GEP; GP88; PCDGF; PEPI; PGRN"
+                     /note="granulin precursor"
+                     /db_xref="GeneID:2896"
+                     /db_xref="HGNC:HGNC:4601"
+                     /db_xref="MIM:138945"
+     mRNA            join(5001..5212,9036..9180,9304..9429,9545..9629,
+                     10106..10218,10320..10455,10569..10678,10915..11041,
+                     11241..11338,11428..11673,11893..12126,12219..12449,
+                     12539..12980)
+                     /gene="GRN"
+                     /gene_synonym="CLN11; GEP; GP88; PCDGF; PEPI; PGRN"
+                     /product="granulin precursor"
+                     /transcript_id="NM_002087.2"
+                     /db_xref="GeneID:2896"
+                     /db_xref="LRG:t1"
+                     /db_xref="HGNC:HGNC:4601"
+                     /db_xref="MIM:138945"
+     exon            5001..5212
+                     /gene="GRN"
+                     /gene_synonym="CLN11; GEP; GP88; PCDGF; PEPI; PGRN"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=1
+     exon            9036..9180
+                     /gene="GRN"
+                     /gene_synonym="CLN11; GEP; GP88; PCDGF; PEPI; PGRN"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=2
+     CDS             join(9043..9180,9304..9429,9545..9629,10106..10218,
+                     10320..10455,10569..10678,10915..11041,11241..11338,
+                     11428..11673,11893..12126,12219..12449,12539..12676)
+                     /gene="GRN"
+                     /gene_synonym="CLN11; GEP; GP88; PCDGF; PEPI; PGRN"
+                     /note="PC cell-derived growth factor; progranulin;
+                     proepithelin; acrogranin; granulin-epithelin; granulins;
+                     glycoprotein 88; glycoprotein of 88 Kda"
+                     /codon_start=1
+                     /product="progranulin precursor"
+                     /protein_id="NP_002078.1"
+                     /db_xref="CCDS:CCDS11483.1"
+                     /db_xref="GeneID:2896"
+                     /db_xref="LRG:p1"
+                     /db_xref="HGNC:HGNC:4601"
+                     /db_xref="MIM:138945"
+                     /translation="MWTLVSWVALTAGLVAGTRCPDGQFCPVACCLDPGGASYSCCRP
+                     LLDKWPTTLSRHLGGPCQVDAHCSAGHSCIFTVSGTSSCCPFPEAVACGDGHHCCPRG
+                     FHCSADGRSCFQRSGNNSVGAIQCPDSQFECPDFSTCCVMVDGSWGCCPMPQASCCED
+                     RVHCCPHGAFCDLVHTRCITPTGTHPLAKKLPAQRTNRAVALSSSVMCPDARSRCPDG
+                     STCCELPSGKYGCCPMPNATCCSDHLHCCPQDTVCDLIQSKCLSKENATTDLLTKLPA
+                     HTVGDVKCDMEVSCPDGYTCCRLQSGAWGCCPFTQAVCCEDHIHCCPAGFTCDTQKGT
+                     CEQGPHQVPWMEKAPAHLSLPDPQALKRDVPCDNVSSCPSSDTCCQLTSGEWGCCPIP
+                     EAVCCSDHQHCCPQGYTCVAEGQCQRGSEIVAGLEKMPARRASLSHPRDIGCDQHTSC
+                     PVGQTCCPSLGGSWACCQLPHAVCCEDRQHCCPAGYTCNVKARSCEKEVVSAQPATFL
+                     ARSPHVGVKDVECGEGHFCHDNQTCCRDNRQGWACCPYRQGVCCADRRHCCPAGFRCA
+                     ARGTKCLRREAPRWDAPLRDPALRQLL"
+     sig_peptide     9043..9093
+                     /gene="GRN"
+                     /gene_synonym="CLN11; GEP; GP88; PCDGF; PEPI; PGRN"
+                     /inference="COORDINATES: ab initio prediction:SignalP:4.0"
+     mat_peptide     join(9094..9180,9304..9429,9545..9629,10106..10218,
+                     10320..10455,10569..10678,10915..11041,11241..11338,
+                     11428..11673,11893..12126,12219..12449,12539..12673)
+                     /gene="GRN"
+                     /gene_synonym="CLN11; GEP; GP88; PCDGF; PEPI; PGRN"
+                     /product="progranulin"
+     misc_feature    10108..10110
+                     /gene="GRN"
+                     /gene_synonym="CLN11; GEP; GP88; PCDGF; PEPI; PGRN"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000269|PubMed:20188224; propagated from
+                     UniProtKB/Swiss-Prot (P28799.2); glycosylation site"
+     mat_peptide     join(10123..10218,10320..10394)
+                     /gene="GRN"
+                     /gene_synonym="CLN11; GEP; GP88; PCDGF; PEPI; PGRN"
+                     /product="Granulin-2. /id=PRO_0000012696"
+                     /note="propagated from UniProtKB/Swiss-Prot (P28799.2)"
+     mat_peptide     join(10586..10678,10915..10989)
+                     /gene="GRN"
+                     /gene_synonym="CLN11; GEP; GP88; PCDGF; PEPI; PGRN"
+                     /product="Granulin-3. /id=PRO_0000012697"
+                     /note="propagated from UniProtKB/Swiss-Prot (P28799.2)"
+     misc_feature    10676..10678
+                     /gene="GRN"
+                     /gene_synonym="CLN11; GEP; GP88; PCDGF; PEPI; PGRN"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255; propagated from
+                     UniProtKB/Swiss-Prot (P28799.2); glycosylation site"
+     misc_feature    10999..11001
+                     /gene="GRN"
+                     /gene_synonym="CLN11; GEP; GP88; PCDGF; PEPI; PGRN"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000269|PubMed:19159218,
+                     ECO:0000269|PubMed:20188224; propagated from
+                     UniProtKB/Swiss-Prot (P28799.2); glycosylation site"
+     mat_peptide     join(11246..11338,11428..11502)
+                     /gene="GRN"
+                     /gene_synonym="CLN11; GEP; GP88; PCDGF; PEPI; PGRN"
+                     /product="Granulin-4. /id=PRO_0000012698"
+                     /note="propagated from UniProtKB/Swiss-Prot (P28799.2)"
+     mat_peptide     join(11584..11673,11893..11964)
+                     /gene="GRN"
+                     /gene_synonym="CLN11; GEP; GP88; PCDGF; PEPI; PGRN"
+                     /product="Granulin-5. /id=PRO_0000012699"
+                     /note="propagated from UniProtKB/Swiss-Prot (P28799.2)"
+     misc_feature    11596..11598
+                     /gene="GRN"
+                     /gene_synonym="CLN11; GEP; GP88; PCDGF; PEPI; PGRN"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000269|PubMed:20188224; propagated from
+                     UniProtKB/Swiss-Prot (P28799.2); glycosylation site"
+     misc_feature    12393..12395
+                     /gene="GRN"
+                     /gene_synonym="CLN11; GEP; GP88; PCDGF; PEPI; PGRN"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000269|PubMed:20188224; propagated from
+                     UniProtKB/Swiss-Prot (P28799.2); glycosylation site"
+     exon            9304..9429
+                     /gene="GRN"
+                     /gene_synonym="CLN11; GEP; GP88; PCDGF; PEPI; PGRN"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=3
+     exon            9545..9629
+                     /gene="GRN"
+                     /gene_synonym="CLN11; GEP; GP88; PCDGF; PEPI; PGRN"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=4
+     exon            10106..10218
+                     /gene="GRN"
+                     /gene_synonym="CLN11; GEP; GP88; PCDGF; PEPI; PGRN"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=5
+     exon            10320..10455
+                     /gene="GRN"
+                     /gene_synonym="CLN11; GEP; GP88; PCDGF; PEPI; PGRN"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=6
+     exon            10569..10678
+                     /gene="GRN"
+                     /gene_synonym="CLN11; GEP; GP88; PCDGF; PEPI; PGRN"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=7
+     exon            10915..11041
+                     /gene="GRN"
+                     /gene_synonym="CLN11; GEP; GP88; PCDGF; PEPI; PGRN"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=8
+     exon            11241..11338
+                     /gene="GRN"
+                     /gene_synonym="CLN11; GEP; GP88; PCDGF; PEPI; PGRN"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=9
+     exon            11428..11673
+                     /gene="GRN"
+                     /gene_synonym="CLN11; GEP; GP88; PCDGF; PEPI; PGRN"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=10
+     exon            11893..12126
+                     /gene="GRN"
+                     /gene_synonym="CLN11; GEP; GP88; PCDGF; PEPI; PGRN"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=11
+     exon            12219..12449
+                     /gene="GRN"
+                     /gene_synonym="CLN11; GEP; GP88; PCDGF; PEPI; PGRN"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=12
+     exon            12539..12980
+                     /gene="GRN"
+                     /gene_synonym="CLN11; GEP; GP88; PCDGF; PEPI; PGRN"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=13
+     gene            complement(13093..>14980)
+                     /gene="FAM171A2"
+                     /note="family with sequence similarity 171 member A2"
+                     /db_xref="GeneID:284069"
+                     /db_xref="HGNC:HGNC:30480"
+     mRNA            complement(13093..>14980)
+                     /gene="FAM171A2"
+                     /product="family with sequence similarity 171 member A2"
+                     /inference="similar to RNA sequence, mRNA (same
+                     species):RefSeq:NM_198475.3"
+                     /exception="annotated by transcript or proteomic data"
+                     /transcript_id="NM_198475.3"
+                     /db_xref="GeneID:284069"
+                     /db_xref="HGNC:HGNC:30480"
+     CDS             complement(13611..>14980)
+                     /gene="FAM171A2"
+                     /inference="similar to AA sequence (same
+                     species):RefSeq:NP_940877.2"
+                     /exception="annotated by transcript or proteomic data"
+                     /note="protein FAM171A2"
+                     /codon_start=3
+                     /product="protein FAM171A2 precursor"
+                     /protein_id="NP_940877.2"
+                     /db_xref="CCDS:CCDS45701.1"
+                     /db_xref="GeneID:284069"
+                     /db_xref="HGNC:HGNC:30480"
+                     /translation="MPPASGPSVLARLLPLLGLLLGSASRAPGKSPPEPPSPQEILIK
+                     VQVYVSGELVPLARASVDVFGNRTLLAAGTTDSEGVATLPLSYRLGTWVLVTAARPGF
+                     LTNSVPWRVDKLPLYASVSLYLLPERPATLILYEDLVHILLGSPGARSQPLVQFQRRA
+                     ARLPVSSTYSQLWASLTPASTQQEMRAFPAFLGTEASSSGNGSWLELMPLTAVSVHLL
+                     TGNGTEVPLSGPIHLSLPVPSETRALTVGTSIPAWRFDPKSGLWVRNGTGVIRKEGRQ
+                     LYWTFVSPQLGYWVAAMASPTAGLVTITSGIQDIGTYHTIFLLTILAALALLVLILLC
+                     LLIYYCRRRCLKPRQQHRKLQLSGPSDGNKRDQATSMSQLHLICGGPLEPAPSGDPEA
+                     PPPGPLHSAFSSSRDLASSRDDFFRTKPRSASRPAAEPSGARGGESAGLKGARSAEGP
+                     GGLEPGLEEHRRGPSGAAAFLHEPPSPPPPFDHYLGHKGAAEGKTPDFLLSQSVDQLA
+                     RPPSLGQAGQLIFCGSIDHLKDNVYRNVMPTLVIPAHYVRLGGEAGAAGVGDEPAPPE
+                     GTAPGPARAFPQPDPQRPQMPGHSGPGGEGGGGGGEGWGAGRAAPVSGSVTIPVLFNE
+                     STMAQLNGELQALTEKKLLELGVKPHPRAWFVSLDGRSNSQVRHSYIDLQAGGGARST
+                     DASLDSGVDVHEARPARRRPAREERERAPPAAPPPPPAPPRLALSEDTEPSSSESRTG
+                     LCSPEDNSLTPLLDEVAAPEGRAATVPRGRGRSRGDSSRSSASELRRDSLTSPEDELG
+                     AEVGDEAGDKKSPWQRREERPLMVFNVK"
+     sig_peptide     complement(14892..14978)
+                     /gene="FAM171A2"
+                     /inference="COORDINATES: ab initio prediction:SignalP:4.0"
+     misc_feature    complement(14781..14783)
+                     /gene="FAM171A2"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000269|PubMed:19349973; propagated from
+                     UniProtKB/Swiss-Prot (A8MVW0.1); glycosylation site"
+     misc_feature    complement(14376..14378)
+                     /gene="FAM171A2"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255; propagated from
+                     UniProtKB/Swiss-Prot (A8MVW0.1); glycosylation site"
+     misc_feature    complement(14316..14318)
+                     /gene="FAM171A2"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255; propagated from
+                     UniProtKB/Swiss-Prot (A8MVW0.1); glycosylation site"
+     misc_feature    complement(14184..14186)
+                     /gene="FAM171A2"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255; propagated from
+                     UniProtKB/Swiss-Prot (A8MVW0.1); glycosylation site"
+     misc_feature    complement(13971..14033)
+                     /gene="FAM171A2"
+                     /note="propagated from UniProtKB/Swiss-Prot (A8MVW0.1);
+                     transmembrane region"
+     misc_feature    complement(13872..13931)
+                     /gene="FAM171A2"
+                     /note="propagated from UniProtKB/Swiss-Prot (A8MVW0.1);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    complement(13869..13871)
+                     /gene="FAM171A2"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:A2A699; propagated from
+                     UniProtKB/Swiss-Prot (A8MVW0.1); phosphorylation site"
+     misc_feature    complement(13863..13865)
+                     /gene="FAM171A2"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:A2A699; propagated from
+                     UniProtKB/Swiss-Prot (A8MVW0.1); phosphorylation site"
+     misc_feature    complement(13767..13844)
+                     /gene="FAM171A2"
+                     /note="propagated from UniProtKB/Swiss-Prot (A8MVW0.1);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    complement(13611..13733)
+                     /gene="FAM171A2"
+                     /note="propagated from UniProtKB/Swiss-Prot (A8MVW0.1);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+ORIGIN      
+        1 taagcgaagg aaaataaaaa aaaaaaaaaa gcagaagcca caaaggaaaa gattgaccaa
+       61 tatatttcag atgacataac aacaacacaa aagacaaatg acagattggg aggaagcatc
+      121 tgaaacatac aaaataccca gaatatataa acagctccta cagttcaaca agaaagaaaa
+      181 tactgcaaaa acaatcagca aataatactg tgatggtaga acaatgtatc tacttggatg
+      241 gtgctcctgg attagattaa catttaaatc agtgaacttt ggttaaagca aattgctctc
+      301 cattgtaggg agaccccctg aaactattgc tacggaataa aagatgaaat gctcctgatt
+      361 attgtaaata cgaaattgca tgcaggattg tgtaaagaca atgccaggtt ggactgccag
+      421 tataagccaa cagctcgtga tgtgcttccc cctgaagaga gcctatgaac agacgtgcag
+      481 tcagggaggt ttcacatcac caatattcct atcccagaaa agcagatgtt catagccctg
+      541 ggaatggaat gtgacccttg tggagggcct ataaatggac gcatgagcgg cacctgttca
+      601 tatggataag atagggctat aaatgccctc atcttgccat ggctcttcta ggcctcttta
+      661 aggttaaggc atactccctt ctgataattt ctggtctaac tggttatcta gcttcacgtc
+      721 ctgtttctat ggattgtttg taaccagctt ttgctgcaac tcttactgct gattaatatc
+      781 ttgctaatca taggttatgg aaagactgtg tttctgtttt aaggctctgt tagaaattac
+      841 tgatgcacac actatattgt aaattcttat ctctgtatac tgtacttctg catacagatg
+      901 ttatgttaaa gaattacttc atccccatgt gaccatctca cctcataatc aaacgaccct
+      961 aaatccctca ctaacctacc ctcgccctca ctaaacttaa taataaatgc tggtatatcc
+     1021 agtgcattgg cagcatcgca ggaccagaag gcggtgaccc ccttggaccc agctttcact
+     1081 atcttgtgtg tgtctattat ttcccgacct gccgatccac ctggggacaa agagagagcc
+     1141 ccattgcctt gtgggctgct ggccagatcc cgcgatactc cataatgtgg atggacctga
+     1201 ataaaacaga aagacgggcc tcgccgaact agagggaatt ctcctgcagg ctaccctcag
+     1261 acttaaccat cagctctcct gggtcgccag cccaccagct cacactaaag gcttaggatg
+     1321 gttatgataa gaaagacaga tgataacaga agttaaccat ggatgaggct aaagagaaat
+     1381 tgaaaccctc atacatcgct ggtgggaatg taaaatagtg cagctgcttt ggaaaacagg
+     1441 ctggtagtta cacaaaaggc taaacagaat tattatgtaa tccactaatt ctactcctag
+     1501 gtatataccc aagagaaatg aaaacatgtc cacacaaaaa cttgtatggg ccgggcgtgg
+     1561 tggctcactc ctgtaatccc agccctttgg gaggctgaag tgggaggatc cctggagttc
+     1621 aggagtttga gactagctga ccaacatggc aagaccctgt ctctacaaaa accacacaaa
+     1681 aattagctgg acatggtgat aagcacctgt agtcccagct acttgggagg cggaggtggg
+     1741 aggattactt gagcccagga ggcagaggtt gcagtgagca gagatgacac cactgcactc
+     1801 caacctgggt aacagagcaa taccctgtct caaaaaaaaa aaaaaaaatg ctggggggat
+     1861 gatgaagata ggcacagtgg ctcaagcctg taatctgtaa tctcagcatt ttgggaggct
+     1921 gaggcagcag gatcacttga ggccaggagc ttgagaccag actaggcaac atattaagac
+     1981 aaaaaaatac aaaatatagc tgggagtggt ggcatgtgtc tgtattccca gctactcagg
+     2041 aggctgaggt gggagggtct gaggctgcag tacaaggtgg caccactgta atccagcttg
+     2101 ggcggcagag gaaggctctg tctcaaaaac aaagaaacaa acaaaaatgg gccacgcgtg
+     2161 gtggctcacg cctgtaatcc cagcagtctg ggagattgag gtgggtggat cacttgaggt
+     2221 caggagttcg agaccagcct ggtcaacatg gcggaaccct gtctctacta aaatacaaaa
+     2281 attagctggg catcatggca catgcttgta atcccagcta tccgggaggc tgagacagga
+     2341 gaattgcttg aacccaggag gcagaggttg cagtgagcca agatcgtgcc actgcactcc
+     2401 agcttgagtg ttggagtgag actctgtctc aaacaaatga aaagaaacaa acaaaaaaga
+     2461 aatgagatac tgatacctgc tatgtgataa gctttgaaaa cattatgcta agtgaaagaa
+     2521 gccagttgca gatcacatat tataaaattt catttatatg gaatatccaa atctatagag
+     2581 gtagaaagta gatcagtggt tgcctagggt tagggagggt gactgctaaa ggacataagg
+     2641 ctgccttctg tggtgataaa aatggtctta aactgattgt aatgatgctg cataactctc
+     2701 ttaagacact aaaaaccatt gagttgtaca ctttaatttt tttgtgttgg cgggggtgga
+     2761 tggagtctcg ctctgttgtc caggctggaa tgcagtggca cgatctcggt ttactgcaac
+     2821 ctctgcatcc cgggttcaag cgattctcct gcctcggcct cctgagtagg gaattacaga
+     2881 cctcgttatc gtggcacctt acccttctga tgttaaaaaa aaaaaaaaaa agagcgagag
+     2941 agagagagag aaacatttgt gaagtaggtt gttgagtctc agcactattg accttttggg
+     3001 caggatactt ctttgttgtg ggggattgtt ctgtgtgtcg tgtgatgttt agtgggattg
+     3061 ctggccctta cctaccagat gccagtgtcc ctccaccctg agttgtgaca acccagattg
+     3121 tctccagaca ctcctaaatg tccctggccg gcaaaattgc cgctgctcaa gaatcacggc
+     3181 tttgacgatt agactttgtg atatttgttt cagtctgttt aggttttttt tcttctacct
+     3241 gtattttttt ctggttctgg gtggttgtaa ttagtaggtt attgatcgat tcacctaaca
+     3301 tttcatgaaa gtttcatgtg tgtgtgtgtt tcaatagaag cataaactat actccctagt
+     3361 ctcaagatac acaggaagga aaataagcac aaatgtgtca ccagggcaca gactagtact
+     3421 aggtcctcag caggccaggt gtcttatccg ctgtctgggt ctgctctagc tccaggctta
+     3481 gaacccctgc cacacgactc cacagctcgg ttggcaccct ttccctcctc cgacttctgc
+     3541 tgcctcgagc ttggttagcc atccccctgc ccctgcctca tcctcagctc cagttccttg
+     3601 ctcaggctgc agcagtctcc atcccctgtg cagacactgc cgttcctcca cggcccagta
+     3661 tcaggctttc cctgggcctc tcctctctcc tggcccatct cccatcatcc atctctgcct
+     3721 ggcccaggcc ctttggcacc aagcaggctg actcttgtca ctggctaatc tgttctgtgg
+     3781 tacattttct ctcctcaccc tcccatatca attcctcgaa ggcagggccg atctggagac
+     3841 taggaagcca cttctctttc gacagccccc accacagccc agcccgtgcc aggcacccag
+     3901 cagctcctga agcccactgg cattgaacat ggcattcaat ccctgccaag cctgcccttc
+     3961 ccatctggtt tcccagggct cttcccaaca cctcctcctc cacctgccag ttaaaatctt
+     4021 cccagactca gctcaaggag atgctcctaa ggtggaatga aatctcttct tccccacctg
+     4081 gagacaatct acttcctctc cctacacctg gcaactggcg cacaaccttg tatcttaaat
+     4141 tagattcagc ctgagactgt ctcccaccaa tccctgctcc ctgtcctgct gagcaccttg
+     4201 aggaaagggc tttggggctg tttatctttg tcctggaaac catccttcaa ctcactctgg
+     4261 ggcctgccta gcatgtcaac cgagtttgga gaatagggca gaatagggca ggacaggaca
+     4321 ggacaagaca gggcaggata ggataggagc gagccagctc agtagctcac atttgtaatc
+     4381 ccagcgcctt ggggggctgc ggtaggagaa tcgctttggg agcaggagtt gcaggccgca
+     4441 gtgagctatg atcagcttgg gcgactgagc gagaccctgt ctctaaaaca aacacacaag
+     4501 tccgggcgcg gtggctcatg cctgtaatct tagcactttg ggaggccgag gtgggcggat
+     4561 cacgaggtca agaaatcgag accatcctgg ccaacatggt gaaaccccgt ctctactaaa
+     4621 aatacaaaaa ttagctgggc gtggtggtgc gcgcctgtag tcccagctac tcgggaggct
+     4681 gaggcaggag aatcgcttga acccgggagg cagaggttgc agtgagccga gatcgtgcca
+     4741 ctgcactcca gcctggcgac agagtgagac tccgtctcag aacaaacaaa caaaaggata
+     4801 gaaaggcgag cacaaatatt cccaattcat aacactccct cgcactgtca atgccccaga
+     4861 cacgcgctat catctctagc aaactccccc aggcgcctgc aggatgggtt aaggaaggcg
+     4921 acgagcacca gctgccctgc tgaggctgtc ccgacgtcac atgattctcc aatcacatga
+     4981 tccctagaaa tggggtgtgg ggcgagagga agcagggagg agagtgattt gagtagaaaa
+     5041 gaaacacagc attccaggct ggccccacct ctatattgat aagtagccaa tgggagcggg
+     5101 tagccctgat ccctggccaa tggaaactga ggtaggcggg tcatcgcgct ggggtctgta
+     5161 gtctgagcgc tacccggttg ctgctgccca aggaccgcgg agtcggacgc aggtaggaga
+     5221 gcggccgcgc agacctctcg cctgctcctg cccaggggcc cgccagggcc atgtgagctt
+     5281 gaggttcccc tggagtctca gccggagaca acagaagaac cgcttactga aactccttgg
+     5341 gggttctgat acactagggg gagttttatg ggaaagagga agcagtaatt gcagtgacgc
+     5401 cccgttagaa ggggctttct acctccccag cattccccca aagcagggac cacaccattc
+     5461 ttgacccagc tccacccctg tcggtaggtg ctggcttctt cccctctcct ggtggtggtg
+     5521 ggtggttccc gcggcggcct ggagccggag gggcgcgcga ccctgggctg ggagctccga
+     5581 gggcctggga acgagacctg agaccttggc ttctcgaagg tagtagggac ttgggagtgg
+     5641 tgactgaacc tggtctggct cctccttact tcctcttgtt gcgggtggga cgagctagct
+     5701 tccgcctctc ccagccactt tttcctgctc atttgcagct aggttggctc cccttttggg
+     5761 aatttcctct ccccttggca ctcggagttg gggggtgcca cctagtggaa gataacggag
+     5821 ctagggtctt gaagaggctg ctgtcccctc tggctgtttt ggcggtgtag ggtggcatga
+     5881 gagactgcga ctcgcctcct catccctgtt tctgtatgcg agtgcttgta ttcagtagaa
+     5941 gcatacacta tactccctca atttagggta aacaggaggg gccacatgca caggtaattc
+     6001 accagggagc cgaacactcc tgtgcagaca gactcccctt cccagcaagc catggcagcg
+     6061 gacagcctgc tgagaacacc caggaagcag gcggtgccag ctgcaggtgc tttgcctggg
+     6121 agctgtgggg ctgaggagag ggtccactgt ccaggaccag tgaacttcat ccttatctgt
+     6181 ccaggaggtg gcctcttggg gatgctgagt taggggaggg gcacttgagg aaagccaggt
+     6241 ggagcagaga ggatgtgagt gactgggtgg gtgagatttc ctgcccctcc ccccgcagtg
+     6301 gtatccacac ctagactcgt ggggtaactg aggcacagac agagagcaac ttctcaggcc
+     6361 ctcacagttg gcaattctag gattaggacc caagtgcgat tttcaggcag tccctgtacc
+     6421 ctgtttctgt tgtacctgtt gcaccattcc caggcactgc ccatcgtgcc actagtgata
+     6481 tgaacccagg tccaatacgc tctggggcca tcaaagcctg acgtcaccat gacctgatgt
+     6541 gtgacgtgtt ataggtgtcc cttggtatct tcacggaact ggttccagga ccccaaaatc
+     6601 tgtgggtgct caagcccctg agataaaatg gtgtaatatt tgcatataac ctatacatac
+     6661 tttaaatcat ttctagatta cttataccta atacaatgga aatgacatgt cggctgggcg
+     6721 tggtggctca tgcctgtaat cccaccactt tgggaggccg tggcaggtgg atcacctgag
+     6781 gtctggagtt tgagaccagc ctgaccaaca tggtgaaacc cccatctcta ctaaaaatac
+     6841 aaaaattagc caggtgtggt agcgcacacc tataatccca cctacttggg aggctgaggc
+     6901 aggagaattg cttgaacctg ggaggcggag ttcgcagtaa gctgagatcg cgccactgta
+     6961 ctacagcctg ggtgacagag caggactcca tctcaaaaaa aaaagagaaa aagaaaaaga
+     7021 aatgccatgt aaatagttgt gatcctgaat tgtttaggga ataataagaa agaactatct
+     7081 gtagatgttc agtatagatg cacccatcgt aagcctaact acattgtata actcagcaac
+     7141 gatgtaacat tttcaggggt ttttttgttt tgttttttga gacagaatct cagtctcact
+     7201 ctgtcaccca ggctggagta tgttggcgtg atctctgctc actgcaacct ccacctcctg
+     7261 ggctcaagcg attctcctgc ctcagcctct tgagtagctg ggattgcagg tgtgcgctac
+     7321 cacgcatggc taatttttgt atttttaata gagatggggt tttaccacgt tggtcaggct
+     7381 ggtcttgaac tcctgacctt gggatccgcc cacctgggcc tcccaaagtg ctgggattac
+     7441 aggcgttagc caccgcgccc aatatatttt gatccctggt tggatatgga gggctgactg
+     7501 tacttaacat ctctaagctt cagtttcctc ctttaaaata aaggtgtggc tgggtgtggt
+     7561 ggttcaagcc tgtaatccca gcacttaggg aggctgaggt gggtggatca gctgaggtca
+     7621 ggagttcaag accagcctga ccaatatggt gaaaccccct ctctgctaaa aatacaaaaa
+     7681 ttagccaggc gtggtggcga gcgcctgtag tcccagctac ttgcttgaac ttgggaggca
+     7741 gaggttgcag tgagctgaga tcgtgccact gaactcgagc atgggcaaca gagcaagact
+     7801 gtctcaaaaa aaaaaaaaaa aagggggtga gcagacgtgg tggcacgctc ccacagtccc
+     7861 agctacttag taggaggcca aggttggagg attgcttgat cccaggagtc tgagtccagc
+     7921 ctgggcaaca tggcaatacc tcatctctaa aaataaaata aaagtaaagg tattaattac
+     7981 tactttggat ggttgttgca aagaaatata tataaaataa tggagagtct tgtaactggc
+     8041 tcccaagagg ctcaacagac attactgttt ttgcttcttc attatgagtt acctctctgg
+     8101 ccaccccact gaactagctg ggctagctga gcctgggaga agagttgttt aggaagtgag
+     8161 aggctgctct ccacagagac tcaaggctca gttcctcctg gtgactcaga tgggcagccc
+     8221 agtgggcaca cgtggtctct ctccacatgt ggctgagttt cacttccaga atagatggag
+     8281 aggcaagggc agggtttagc atgcttgagg aatctcagag ggccctggtg gtgtggggga
+     8341 ccctcagaac acaggtgtct caagggctga cccagcttct gtgtcctttt ctctgggtga
+     8401 ggaggggaca ttcatgggca gatggtgacc tctggggaag gcagcccaga ctccactggc
+     8461 caccatattt cctttttcac aactttctca cccctgtggt ttcccatgtc atcatgtggc
+     8521 cgcttcccgc aaggccttag cggggtgcag gtatgaacat agtgtcaggc aaggaggcat
+     8581 ctggagggga accctggctt ttcctggggg gactccctcc ctgcacccta gccctgtcct
+     8641 ctcccatggc tactgatgcc ttcccctcac cccagaggtg gcccacatct gcacagatca
+     8701 gacccacaaa aatcacgtct tcctgactct cataagcctg cccagtgagg cccaggcatt
+     8761 aggccatgtg ctggggactc agacccacac atatacgcat gtcagcattc atgcttacag
+     8821 gtccgcacat gctggggcaa gtgtcacaca cggggcgctg taggaagctg actctcagcc
+     8881 cctgcagatt tctgcctgcc tggacaggga ggtgttgaga aggctcaggc agtcctgggc
+     8941 caggaccttg gcctggggct agggtactga gtgaccctag aatcaagggt ggcgtgggct
+     9001 taagcagttg ccagacgttc cttggtactt tgcaggcaga ccatgtggac cctggtgagc
+     9061 tgggtggcct taacagcagg gctggtggct ggaacgcggt gcccagatgg tcagttctgc
+     9121 cctgtggcct gctgcctgga ccccggagga gccagctaca gctgctgccg tccccttctg
+     9181 gtgagtgccc ctcagcctag gcaagagctg gcagcctggg ttttcccaaa gggtcatctt
+     9241 ggattggcca gaggaggacg ccaggcacaa gtctgtggtt tatcattttc cctgtctttc
+     9301 taggacaaat ggcccacaac actgagcagg catctgggtg gcccctgcca ggttgatgcc
+     9361 cactgctctg ccggccactc ctgcatcttt accgtctcag ggacttccag ttgctgcccc
+     9421 ttcccagagg tgagcgtgcc atcagcccag tggaggggct taggtctgca tttatgcttt
+     9481 tcctgcactc taccacctgc agataaaagg gccctgccaa tgcaggtttc tctgtgttcc
+     9541 acaggccgtg gcatgcgggg atggccatca ctgctgccca cggggcttcc actgcagtgc
+     9601 agacgggcga tcctgcttcc aaagatcagg tgcagctggg gtgtgggtgc agggcaggca
+     9661 gacgggcagc atgtggagtc tggaacccag gagcccagct ggcgggggca gccctgattc
+     9721 ctgcccttgt gccctcattc atgtggcatc tgtactaagc aacagccctg ctgtggacag
+     9781 aggggcagca ctggggatag gagggtgcgg gagaaagtgc aagactccag gtccaggcgt
+     9841 tgtgggggtg gggagaggtc gagctgggcc ggtctaatac caacccatgg tcagtgggtg
+     9901 ccccttcccc atgccatctt gctgagggag ggactggatt gtgaggaggg tgagttaggc
+     9961 ctgcctagga gatcactgag ccttagtgtc accctcaaac cccagtagct gggcttgcag
+    10021 gccctggtgc caccagctcc ttgtgtgatg ggggagtcac cttccctgag tgggctggta
+    10081 gtatcctggg tcatcttgtc cacaggtaac aactccgtgg gtgccatcca gtgccctgat
+    10141 agtcagttcg aatgcccgga cttctccacg tgctgtgtta tggtcgatgg ctcctggggg
+    10201 tgctgcccca tgccccaggt acaaatctgg gggagatggg ggtatgtgga gggaagtggg
+    10261 ggcagagttg ggggccaggg gcagggggtg aagacggagt caggaccatt ttttctcagg
+    10321 cttcctgctg tgaagacagg gtgcactgct gtccgcacgg tgccttctgc gacctggttc
+    10381 acacccgctg catcacaccc acgggcaccc accccctggc aaagaagctc cctgcccaga
+    10441 ggactaacag ggcaggtgag gaggtgggag agcatcaggc caggggctgg ggcggggcct
+    10501 cattgactcc aagtgtagga aaaagtttcc tccatcctgg ctgcccctca cgtttgctcc
+    10561 tcttccagtg gccttgtcca gctcggtcat gtgtccggac gcacggtccc ggtgccctga
+    10621 tggttctacc tgctgtgagc tgcccagtgg gaagtatggc tgctgcccaa tgcccaacgt
+    10681 gagtgagggg ctggagccag cttggctgtg tgcccccagc cacctggccc tgacacgcac
+    10741 cttacagggg ctctgtggca tggggctggc tggctgcttg ctgggagcct ggctgatgca
+    10801 gggttcatgc taccccctag tgggggattg gggcagtgcc agccatcagc ctggctgctc
+    10861 cctgtgtgct actgagcctg gaagtgacaa agacccaccc ctgtccccac tcaggccacc
+    10921 tgctgctccg atcacctgca ctgctgcccc caagacactg tgtgtgacct gatccagagt
+    10981 aagtgcctct ccaaggagaa cgctaccacg gacctcctca ctaagctgcc tgcgcacaca
+    11041 ggtaccagag gcagggtgca gatacagggg tggggccccc tttcctccct tttaggcctg
+    11101 gccttaggat cactgcaagg tggtgtaagc ggtaccctcc atcttcaaca cctggttcca
+    11161 gctgtggagc cggcaaaggg ttgatacccc tgagggtccc cagtgccact tctgacctgt
+    11221 cctctctgct tccctcacag tgggggatgt gaaatgtgac atggaggtga gctgcccaga
+    11281 tggctatacc tgctgccgtc tacagtcggg ggcctggggc tgctgccctt ttacccaggt
+    11341 acccaggggt ggcgggtggg tgggctgagc acagtgtggc aggcagccgg gccccagtgc
+    11401 ccacctgccc ttcttcatct gccctaggct gtgtgctgtg aggaccacat acactgctgt
+    11461 cccgcggggt ttacgtgtga cacgcagaag ggtacctgtg aacaggggcc ccaccaggtg
+    11521 ccctggatgg agaaggcccc agctcacctc agcctgccag acccacaagc cttgaagaga
+    11581 gatgtcccct gtgataatgt cagcagctgt ccctcctccg atacctgctg ccaactcacg
+    11641 tctggggagt ggggctgctg tccaatccca gaggtatatg ggaggggaca gcatcttggc
+    11701 ctgggcaggt gggtggccaa gctcctattg ctttctgccc tccgcatagc ccataggtga
+    11761 tacccagctc tgacagattc gtccccagct ggaggtgctg taagcaggag aggcgggctg
+    11821 gagtaggtag gggctcggca ctgcgcccca catagtggct acctacaacg ccctttcctg
+    11881 cccacccccc aggctgtctg ctgctcggac caccagcact gctgccccca gggctacacg
+    11941 tgtgtagctg aggggcagtg tcagcgagga agcgagatcg tggctggact ggagaagatg
+    12001 cctgcccgcc gggcttcctt atcccacccc agagacatcg gctgtgacca gcacaccagc
+    12061 tgcccggtgg ggcagacctg ctgcccgagc ctgggtggga gctgggcctg ctgccagttg
+    12121 ccccatgtga gtgcctccct gcctgcccct ggatagggga gctaagccca gtgaggggac
+    12181 aggaacataa tgccattctg tgctcccttc cccgccaggc tgtgtgctgc gaggatcgcc
+    12241 agcactgctg cccggctggc tacacctgca acgtgaaggc tcgatcctgc gagaaggaag
+    12301 tggtctctgc ccagcctgcc accttcctgg cccgtagccc tcacgtgggt gtgaaggacg
+    12361 tggagtgtgg ggaaggacac ttctgccatg ataaccagac ctgctgccga gacaaccgac
+    12421 agggctgggc ctgctgtccc taccgccagg tcagtgccaa cccccatcct ggggctgggt
+    12481 atggccaggg accaggtccc acctcgtcca accctctcgc ccccctctga ccatccaggg
+    12541 cgtctgttgt gctgatcggc gccactgctg tcctgctggc ttccgctgcg cagccagggg
+    12601 taccaagtgt ttgcgcaggg aggccccgcg ctgggacgcc cctttgaggg acccagcctt
+    12661 gagacagctg ctgtgaggga cagtactgaa gactctgcag ccctcgggac cccactcgga
+    12721 gggtgccctc tgctcaggcc tccctagcac ctccccctaa ccaaattctc cctggacccc
+    12781 attctgagct ccccatcacc atgggaggtg gggcctcaat ctaaggcctt ccctgtcaga
+    12841 agggggttgt ggcaaaagcc acattacaag ctgccatccc ctccccgttt cagtggaccc
+    12901 tgtggccagg tgcttttccc tatccacagg ggtgtttgtg tgtgtgcgcg tgtgcgtttc
+    12961 aataaagttt gtacactttc ttaacagtgt ctgatttgcc gccctgcctg ccctccccag
+    13021 ggccccagaa caggggttca cgtccactgc caacactccc ctcccctacc ccacagaaag
+    13081 acatacacag ccttaacctc accagtttta tatttgctgc tgcccacatc ggctgtatca
+    13141 cattaccccc tagtccccag agctgtccca gccaccagcc ctgtgacatc gtagcccaga
+    13201 gatgggctag tcagcaagca gcaccccctc ccctcccagg ggtccacaaa gaacgccccc
+    13261 tcccttccca gccctcacac tagcagctga ggctgggtca cccctcctgc tttcccacaa
+    13321 tagagctttc tatgtacagc cacgtctaca caggcactgc ttccccccag ccctcctccc
+    13381 cggcacctcc ccgtgggggt ctggaccccc cctcctcccc ggcttggagg cagacacagg
+    13441 gtcccttgca agacacgacc cagcaccaac cacggaacag ctccaaggcc cctgggcccc
+    13501 tctccggcct ggggctggga gctacgcgcg agggcccccg cgggcccccg gggcgcgcac
+    13561 cctgggtgcg ggcccgcgcg ggaggggcgg tgccaggccc tgcgcgggcg ctacttgacg
+    13621 ttgaacacca tcagcggccg ctcctcccgc cgctgccacg ggctcttctt gtctcccgcc
+    13681 tcgtcgccca cctccgcccc cagctcgtcc tccgggctgg tgagcgagtc gcgccgcagc
+    13741 tcgctggcgc tgctgcggga gctgtccccg cggctgcggc cccgcccccg gggtaccgtg
+    13801 gccgcccggc cctcgggcgc cgccacctcg tccagcagcg gcgtcagcga gttgtcctcc
+    13861 ggagagcaga ggcccgtgcg gctctcgctg ctgctgggct ccgtgtcctc gctgagcgcc
+    13921 aggcgcgggg gcgcgggcgg cggcggcggc gcggcaggcg gggcgcgctc ccgctcctcc
+    13981 ctcgcgggcc ggcggcgcgc gggccgcgcc tcgtggacat ctacgcccga gtccaggctg
+    14041 gcgtcggtgc tgcgtgcccc gccgcccgcc tgcaggtcga tgtaagagtg gcgcacttgc
+    14101 gagttggagc gcccgtcgag ggacacgaac caggcgcgcg ggtgcggctt cacgcccagt
+    14161 tccagcagct tcttctcggt cagggcctgc agctccccgt tgagctgcgc catggtggac
+    14221 tcgttgaata gcacagggat ggtgactgag ccactgacgg gcgccgcgcg cccggccccc
+    14281 cagccctcgc cgccgccccc gccgccctcg ccccccgggc ccgagtggcc cggcatctgc
+    14341 gggcgctggg ggtcgggctg gggaaaagcg cgcgccgggc cgggtgccgt gccctccggc
+    14401 ggggccggct cgtcgcccac gccggcggcg cccgcctcgc cgccgaggcg cacgtagtgc
+    14461 gcggggatca ccagggtggg catgacgttg cggtagacgt tgtccttgag gtggtcgatg
+    14521 gagccgcaga agatgagctg ccccgcctgg cccagcgacg gcggccgcgc cagctggtcc
+    14581 accgactgcg acagcaggaa gtcgggggtc ttgccctcgg ccgccccctt gtggcccagg
+    14641 tagtggtcga agggcggcgg cggcgagggc ggctcgtgca ggaaggccgc agcccccgag
+    14701 ggcccccgcc ggtgctcctc taggccgggc tccagcccgc cggggccctc ggccgagcga
+    14761 gcgcccttga gcccggcgct ctcgcccccg cgggcacccg aaggctcggc ggccgggcgg
+    14821 ctggcagagc gcggcttggt gcggaagaag tcatcccggg aggaggccaa gtcccgggag
+    14881 ctggagaagg ccgagtggag ggggcctgga ggcggagcct cggggtcccc cgacggggcg
+    14941 ggttccaggg gtcccccaca gatgaggtgg agctgggaca
+//
+
