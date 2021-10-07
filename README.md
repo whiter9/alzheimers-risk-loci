@@ -8,7 +8,8 @@ This repository documents the methods and results of a bioinformatics data colle
 ## Contents
 * .gb files - raw data files containing individual genetic records
 * alzheimers_risk_loci.csv - final formatted data file
-* parse_genbank_files.py - file parser to construct a csv from the raw data files
+* parse_genbank_files.py - file parser to construct the dataset and export to csv
+
 
 
 ## Acknowledgements
