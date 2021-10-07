@@ -7,8 +7,8 @@ This repository documents the methods and results of a bioinformatics data colle
 
 ## Contents
 * .gb files - raw data files containing individual genetic records
-* alzheimers_risk_loci.csv - final formatted data file
-* parse_genbank_files.py - file parser to construct the dataset and export to csv
+* ganbank_data.csv - final formatted data file
+* parse_genbank_file.py - file parser to construct the dataset and export to csv
 
 
 
@@ -18,4 +18,3 @@ This repository documents the methods and results of a bioinformatics data colle
 * Data parsing and manipulation: [BioPython](https://biopython.org/docs/1.75/api/index.html) 
 * [Alzheimer's GWAS paper](https://doi.org/10.1038/s41588-021-00921-z)
   * Wightman, D.P., Jansen, I.E., Savage, J.E. et al. A genome-wide association study with 1,126,563 individuals identifies new risk loci for Alzheimer’s disease. Nat Genet 53, 1276–1282 (2021). https://doi.org/10.1038/s41588-021-00921-z
-
