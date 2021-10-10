@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<collection xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<record>
+		<dc:title>GenBank Data for Seven Newly-Discovered Alzheimer's Risk Loci</dc:title>
+		<dc:creator>Rachael C. White</dc:creator>
+		<dc:subject>https://www.ncbi.nlm.nih.gov/genbank/</dc:subject>
+		<dc:date>2021-10-01</dc:date>
+		<dc:type>Dataset</dc:type>
+		<dc:format>csv</dc:format>
+		<dc:identifier>https://github.com/whiter9/alzheimers-risk-loci/blob/main/genbank_data.csv</dc:identifier>
+		<dc:source>https://www.ncbi.nlm.nih.gov/</dc:source>
+		<dc:language>en</dc:language>
+		<dc:rights>https://www.ncbi.nlm.nih.gov/home/about/policies/</dc:rights>
+	</record>
+</collection>
+
